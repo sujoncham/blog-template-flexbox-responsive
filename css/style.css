@@ -213,7 +213,6 @@ body{
 
 .news-part{
     background: #dfffff;
-    padding: 25px;
 }
 
 .blog-news{
@@ -227,12 +226,13 @@ body{
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-}
-
-.news-item{
-    width: 23%;
     padding: 10px;
 }
+
+ /* .news-item{
+    width: 23%;
+    padding: 10px;
+} */
 
 .news-item h2{
     font-size: 18px;
@@ -292,9 +292,7 @@ body{
 .fm ul li{
     display: inline-block;
 }
-.fm ul li a{
 
-}
 .fm ul li a:hover{
     color: #d2691e;
 }

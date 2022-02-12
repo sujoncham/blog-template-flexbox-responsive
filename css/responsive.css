@@ -365,6 +365,10 @@
         color: #333;
     }
 
+    .news-item{
+        width: 32%;
+    }
+
     .item p{
         font-size: 13px;
     }
