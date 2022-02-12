@@ -1,0 +1,878 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .header-top{
+        background: #d2691e;
+    }
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .main-menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .logmenu{
+        background: #f80;
+        padding: 10px;
+    }
+    
+    .slider{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 350px;
+    }
+    
+    .slide{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .item{
+        padding: 10px;
+    }
+    
+    .item img{
+        width: 100%;
+    }
+    
+    .blog-content{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .post-social{
+        padding: 7px;
+        flex-basis: 45%;
+    }
+    
+    .post-social img{
+        width: 100%;
+    }
+
+    .social-item{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .blogger{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 350px;  
+    }
+
+    .form{
+        padding: 10px;
+    }
+
+    input{
+        padding: 10px 10px;
+        width: 75%;
+    }
+
+    .btnin{
+        padding: 10px 20px;
+        background: #d2691e;
+        cursor: pointer;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    .footer{
+        background: #333;
+        color: #fff;
+    }
+    
+    .footer-content{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .f{
+        flex-basis: 50%;
+    }
+
+    .form-side{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contact-form{
+        padding: 20px;
+    }
+
+    .fm{
+        width: 100%;
+        margin: 20px;
+    }
+
+    .form-side textarea{
+        width: 94%;
+        margin: 10px;
+    }
+
+    .form-side input{
+        width: 90%;
+        margin: 10px;
+    }
+    
+
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .header-top{
+        background: #0c806c;
+    }
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .main-menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .logmenu{
+        background: rgb(163, 90, 6);
+        padding: 10px;
+    }
+    
+    .slider{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 350px;
+    }
+    
+    .slide{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .main-content{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .side-content{
+        flex-basis: 38%;
+    }
+
+    .blog{
+        flex-basis: 58%;
+    }
+    
+    
+    .item{
+        padding: 10px;
+    }
+    
+    .item img{
+        width: 100%;
+    }
+    
+    .blog-content{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .post-social{
+        padding: 5px;
+        flex-basis: 45%;
+    }
+    
+    .post-social img{
+        width: 100%;
+    }
+
+    .social-item{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .blogger{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 350px;  
+    }
+
+    .form{
+        padding: 10px;
+    }
+
+    input{
+        padding: 10px 10px;
+        width: 58%;
+    }
+
+    .btnin{
+        padding: 10px 20px;
+        background: #d2691e;
+        cursor: pointer;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    .post h4{
+        font-size: 15px;
+    }
+
+    .footer{
+        background: #333;
+        color: #fff;
+    }
+    
+    .footer-content{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .f{
+        flex-basis: 50%;
+    }
+
+    .form-side{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 10px;
+    }
+    
+    .fm{
+        width: 50%;
+    }
+
+    .form-side textarea{
+        width: 91%;
+        margin: 10px;
+    }
+
+    .form-side input{
+        width: 85%;
+        margin: 10px;
+    }
+    
+
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+    .container{
+        width: 768px;
+        margin: 0 auto;
+    }
+    
+    .header-top{
+        background: #d8b105;
+    }
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 10px;
+    }
+
+    .main-menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    .logmenu{
+        background: rgb(163, 90, 6);
+        padding: 10px;
+    }
+    
+    .slide{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .main-content{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .side-content{
+        flex-basis: 35%;
+    }
+
+    .blog{
+        flex-basis: 64%;
+    }
+    
+    .item h2{
+        font-size: 20px;
+        color: #333;
+    }
+
+    .item p{
+        font-size: 13px;
+    }
+    
+    .item img{
+        width: 100%;
+        height: 180px;
+    }
+
+    .content-item{
+        width: 49%;
+    }
+    
+    .blog-content{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .post-social{
+        padding: 5px;
+        flex-basis: 45%;
+    }
+    
+    .post-social img{
+        width: 100%;
+    }
+
+    .social-item{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .blogger{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form{
+        padding: 10px;
+    }
+
+    input{
+        padding: 10px 10px;
+        width: 66%;
+    }
+
+    .btnin{
+        padding: 10px 20px;
+        background: #d2691e;
+        cursor: pointer;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    .post h4{
+        font-size: 15px;
+    }
+
+    .footer{
+        background: #333;
+        color: #fff;
+    }
+    
+    .footer-content{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .f{
+        flex-basis: 23%;
+    }
+
+    .foot3 ul li{
+        padding: 5px;
+        display: inline-block;
+    }
+
+    .foot3 ul li a{
+        color: #f80;
+        text-decoration: none;
+        padding: 5px;
+    }
+
+    .form-side{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 10px;
+    }
+    
+    .fm{
+        width: 50%;
+    }
+
+    .form-side textarea{
+        width: 90%;
+        margin: 10px;
+    }
+
+    .form-side input{
+        width: 85%;
+        margin: 10px;
+    }
+    
+
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+    .container{
+        width: 992px;
+        margin: 0 auto;
+    }
+    
+    .header-top{
+        background: #067956;
+    }
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 10px;
+    }
+
+    .main-menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    .logmenu{
+        background:#d2691e;
+        padding: 10px;
+    }
+
+    .socialink ul li a:hover {
+        background: #d2691e;
+    }
+
+    .top-sect span{
+        color: #fff;
+    }
+    
+    .slide{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu ul li a:hover {
+        background: #067956;
+
+    }
+
+    .choose-product a{
+        background: #d2691e;
+        font-size: 12px;
+    }
+
+    .main-content{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .side-content{
+        flex-basis: 35%;
+    }
+
+    .blog{
+        flex-basis: 64%;
+    }
+    
+    .item h2{
+        font-size: 20px;
+        color: #333;
+    }
+
+    .item p{
+        font-size: 13px;
+    }
+    
+    .item img{
+        width: 100%;
+        height: 220px;
+    }
+
+    .content-item{
+        width: 49%;
+    }
+    
+    .blog-content{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .post-social{
+        padding: 10px;
+        flex-basis: 44%;
+    }
+    
+    .post-social img{
+        width: 100%;
+    }
+
+    .social-item{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .blogger{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form{
+        padding: 10px;
+    }
+
+    input{
+        padding: 10px 10px;
+        width: 73%;
+    }
+
+    .btnin{
+        padding: 10px 20px;
+        background: #d2691e;
+        cursor: pointer;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    .post h4{
+        font-size: 15px;
+    }
+
+    .footer{
+        background: #333;
+        color: #fff;
+    }
+    
+    .footer-content{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .f{
+        flex-basis: 23%;
+    }
+
+    .foot3 ul li{
+        padding: 7px;
+        display: inline-block;
+    }
+    .foot3 ul li a{
+        color: #f80;
+        text-decoration: none;
+        padding: 7px;
+    }
+
+    .form-side{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 10px;
+    }
+    
+    .fm{
+        width: 50%;
+    }
+
+    .form-side textarea{
+        width: 95%;
+        margin: 10px;
+    }
+
+    .form-side input{
+        width: 91%;
+        margin: 10px;
+    }
+    
+
+
+    
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+   
+    .container{
+        width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .header-top{
+        background: #420679;
+        color: #fff;
+    }
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 10px;
+    }
+
+    .main-menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    .logmenu{
+        background: #d2691e;
+        padding: 10px;
+    }
+    
+    .slide{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .main-content{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .side-content{
+        flex-basis: 35%;
+    }
+
+    .blog{
+        flex-basis: 64%;
+    }
+    
+    .item h2{
+        font-size: 20px;
+        color: #333;
+    }
+
+    .item p{
+        font-size: 13px;
+    }
+    
+    .item img{
+        width: 100%;
+        height: 220px;
+    }
+
+    .content-item{
+        width: 49%;
+    }
+
+    .choose-product a{
+        background: #d2691e;
+    }
+    
+    .blog-content{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .post-social{
+        padding: 10px;
+        flex-basis: 44%;
+    }
+    
+    .post-social img{
+        width: 100%;
+    }
+
+    .social-item{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .blogger{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form{
+        padding: 10px;
+    }
+
+    input{
+        padding: 10px 10px;
+        width: 78%;
+    }
+
+    .btnin{
+        padding: 10px 20px;
+        background: #420679;
+        cursor: pointer;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    .item a, .post a, .pagination a{
+        background: #420679;
+        font-size: 12px;
+        color: #fff;
+    }
+
+    .logo a{
+        color: #420679;
+    }
+
+    .socialink ul li a:hover{
+        background: #d2691e;
+    }
+
+    .welcome-text h3{
+        color: #d2691e !important;
+    }
+
+    .menu ul li a:hover{
+        background: #420679;
+    }
+
+    .post h4{
+        font-size: 15px;
+    }
+
+    .footer{
+        background: #420679;
+        color: #fff;
+    }
+    
+    .footer-content{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .f{
+        flex-basis: 23%;
+    }
+
+    .foot3 ul li{
+        padding: 7px;
+        display: inline-block;
+    }
+    .foot3 ul li a{
+        color: #f80;
+        text-decoration: none;
+        padding: 7px;
+    }
+
+    .category h3, .posts-item h3, .social h3{
+        background: #420679;
+        padding: 5px;
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .form-side{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 10px;
+    }
+    
+    .fm{
+        width: 50%;
+    }
+
+    .form-side textarea{
+        width: 95%;
+        margin: 10px;
+    }
+
+    .form-side input{
+        width: 91%;
+        margin: 10px;
+    }
+    
+
+
+    
+}

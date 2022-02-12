@@ -1,0 +1,280 @@
+
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../img/service.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.products{
+    padding: 50px;
+}
+
+.product-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.single-product{
+    margin-top: 30px;
+}
+
+.single-product img{
+    width: 100%;
+}
+
+.choose-text{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.choose-text h3, .product-text h3{
+    font-size: 30px;
+}
+
+.product-text{
+    text-align: center;
+}
+
+.guiding{
+    padding: 50px;
+    background: #ddd;
+}
+
+.guiding-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.guiding-img img{
+    width: 100%;
+}
+
+.choosing-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.choose{
+    padding: 50px;
+}
+
+.choose-product img{
+    width: 100%;
+}
+
+.choose-product a{
+    background: #d2691e;
+    color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.choose-product p{
+    margin-bottom: 15px;
+}
+
+.booking{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url("../img/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    height: 350px;
+
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .services{
+        height: 270px;
+    }
+
+    .product-info{
+        flex-direction: column;
+    }
+    
+    .guiding-content{
+        flex-direction: column;
+    }
+
+
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .services{
+        height: 330px;
+    }
+
+    .single-product{
+        width: 48%;
+    }
+
+    .product-info{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .guiding-content{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .guiding-info{
+        width: 48%;
+    }
+
+    .guiding-img{
+        width: 48%;
+    }
+
+    .choosing-info{
+        flex-wrap: wrap;
+    }
+
+    .choose-product{
+        width: 48%;
+    }
+
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+   
+    .services{
+        height: 390px;
+    }
+
+    .single-product{
+        width: 23%;
+    }
+
+    .product-info{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .guiding-content{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .guiding-info{
+        width: 48%;
+    }
+
+    .guiding-img{
+        width: 48%;
+    }
+
+    .choosing-info{
+        flex-wrap: wrap;
+    }
+
+    .choose-product{
+        width: 23%;
+    }
+
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    
+    .container{
+        width: 992px;
+        margin: 0 auto;
+    }
+
+   .services{
+        height: 390px;
+    }
+
+    .single-product{
+        width: 23%;
+    }
+
+    .product-info{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .guiding-content{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .guiding-info{
+        width: 48%;
+    }
+
+    .guiding-img{
+        width: 48%;
+    }
+
+    .choosing-info{
+        flex-wrap: wrap;
+    }
+
+    .choose-product{
+        width: 23%;
+    }
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+   
+    .container{
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    .about{
+        height: 380px;
+    }
+
+    .booking h4{
+        font-size: 25px;
+    }
+
+
+   
+   
+    
+}
