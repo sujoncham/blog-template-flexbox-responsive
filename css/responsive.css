@@ -489,7 +489,7 @@
 @media only screen and (min-width: 992px) {
     
     .container{
-        width: 992px;
+        width: 100%;
         margin: 0 auto;
     }
     
