@@ -43,6 +43,10 @@
         justify-content: space-between;
         align-items: center;
     }
+
+    .new-item{
+        width: 100%;
+    }
     
     .item{
         padding: 10px;
@@ -140,8 +144,6 @@
         width: 90%;
         margin: 10px;
     }
-    
-
     
 }
 
