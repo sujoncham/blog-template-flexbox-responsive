@@ -25,6 +25,11 @@ const Sidebar = ({openTab, setOpenTab, show}) => {
                     <FaFileMedical size={20} className='' />
                     {!show ? <Link to='/dashboard/addTestimonial'>Add Testimonial</Link>: ""}
             </div>
+            <div onClick={() => setOpenTab(5)}
+                className={` ${openTab === 5 ? "bg-[#eebb76] px-5 py-3 text-[#3B3442]" : " px-5 py-3 text-[#dc7672]"} flex justify-start items-center gap-2 cursor-pointer border-b-[1px]`}>
+                    <FaFileMedical size={20} className='' />
+                    {!show ? <Link to='/dashboard/allPost'>All Post</Link>: ""}
+            </div>
     </div>
     );
 };
